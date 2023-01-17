@@ -1,0 +1,31 @@
+.user-form {
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-form input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+
+.user-form label {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.submit {
+    width: 100%;
+    background-color: rgba(177, 34, 195, 1);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 30px;
+}

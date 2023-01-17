@@ -1,0 +1,32 @@
+.App {
+  
+  width: 100%;
+  height: 100vh;
+}
+
+.left-form {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  float: left;
+  background: rgb(38, 111, 218);
+  background: linear-gradient(
+    0deg,
+    rgba(38, 111, 218, 1) 0%,
+    rgba(177, 34, 195, 1) 44%,
+    rgba(205, 78, 254, 1) 78%
+  );
+}
+
+.right-form {
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  float: left;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center; 
+}
+
+
+
